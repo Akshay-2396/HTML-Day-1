@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="Assets/user_info_man_male-512.webp"
+      type="image/x-icon"
+    />
+    <title>Personal Info</title>
+  </head>
+  <body>
+    <header>
+      <h1>FORMS</h1>
+    </header>
+    <hr />
+    <main>
+      <form>
+        <fieldset>
+          <legend><strong>Personal Info</strong></legend>
+          <p>
+            <label for="First Name">First Name</label>
+            <input
+              type="text"
+              name="First name"
+              id="First Name"
+              placeholder="Enter Your First Name"
+              required
+            />
+          </p>
+          <p>
+            <label for="last Name">last Name</label>
+            <input
+              type="text"
+              name="First name"
+              id="last Name"
+              placeholder="Enter Your last Name"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Mail Id"
+              required
+            />
+          </p>
+          <p>
+            <label for="phone no.">Phone Number</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone no."
+              placeholder="Enter Your Phone Number"
+              required
+            />
+          </p>
+          <p>
+            <label for="dob">Date Of Birth</label>
+            <input
+              type="date"
+              name="dob"
+              id="dob"
+              placeholder="Enter Your Date OF Birth"
+              required
+            />
+          </p>
+          <p>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend><strong>Suggested Food</strong></legend>
+          <p>
+            <label for="food">Dishes</label>
+            <br />
+            <br />
+            <label for="food">BreakFast</label>
+            <select name="food" id="food">
+              <option value="Idily">Idily</option>
+              <option value="dosai">Dosai</option>
+              <option value="Poori">Poori</option>
+              <option value="Pongal">Pongal</option>
+            </select>
+            <label for="food">Lunch</label>
+            <select name="food" id="food">
+              <option value="Briyani">Biriyani</option>
+              <option value="Meals">Meals</option>
+              <option value="Fried Rice">Fried Rice</option>
+              <option value="variety Rice">Variety Rice</option>
+            </select>
+            <label for="food">Dinner</label>
+            <select name="food" id="food">
+              <option value="chappathi">Chappathi</option>
+              <option value="Butter Naan">Butter Naan</option>
+              <option value="Noodels">Noodels</option>
+              <option value="Parota">Parota</option>
+            </select>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend><strong>Favourite Sports</strong></legend>
+          <p>
+            <label for="sport">Favourite Game</label>
+            <input
+              type="text"
+              name="sport"
+              id="sport"
+              placeholder="Enter Your Favourite Sport"
+              list="Sport-list"
+            />
+            <datalist id="Sport-list">
+              <option value="cricket">cricket</option>
+              <option value="Football">Football</option>
+              <option value="Basket Ball">Basket Ball</option>
+            </datalist>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend><strong>Skills</strong></legend>
+          <p>
+            <label for="JS">JS</label>
+            <input type="checkbox" name="Skills" id="JS" value="JS" />
+          </p>
+          <p>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="Skills" id="CSS" value="CSS" />
+          </p>
+          <p>
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="Skills" id="HTML" value="HTML" />
+          </p>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </main>
+    <footer>
+      <hr />
+      <marquee direction="right">
+        &lt; &lt; &lt;<mark><strong> &copy; AKSHAY </strong></mark>&gt;&gt;&gt;
+      </marquee>
+      <br />
+      <a href="#" target="_top"><button>Back To Top</button></a>
+      <a href="index.html" target="_self"><button>Previous Page</button></a>
+    </footer>
+  </body>
+</html>
